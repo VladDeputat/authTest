@@ -16,7 +16,7 @@ export const signUp =
         if (user) {
           dispatch(authAction({ id: user.uid, email: user.email }));
           setIsModalOpen(false);
-          const docRef = await addDoc(collection(db, "users"), {
+          await addDoc(collection(db, "users"), {
             email: user.email,
             id: user.uid,
             createdAt: Date.now(),
