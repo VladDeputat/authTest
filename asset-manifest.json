@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/authTest/static/css/main.bd407c03.css",
+    "main.js": "/authTest/static/js/main.c72c9db9.js",
+    "index.html": "/authTest/index.html",
+    "main.bd407c03.css.map": "/authTest/static/css/main.bd407c03.css.map",
+    "main.c72c9db9.js.map": "/authTest/static/js/main.c72c9db9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd407c03.css",
+    "static/js/main.c72c9db9.js"
+  ]
+}
