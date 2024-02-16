@@ -1,0 +1,33 @@
+.header {
+  height: 80px;
+  border-bottom: 1px solid #000;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .btn {
+    padding: 12px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 200ms linear;
+    color: var(--black, #000);
+    border: 2px solid var(--blue, #06d);
+    font-size: 20px;
+    font-weight: 500;
+    max-height: 56px;
+    min-width: 120px;
+
+    &:hover,
+    &:focus {
+      background: var(--black, #000);
+      border: 2px solid var(--black, #000);
+      color: var(--white, #fff);
+    }
+
+    &:not(:last-child) {
+      margin-right: 12px;
+    }
+  }
+}
