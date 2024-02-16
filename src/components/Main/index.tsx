@@ -17,7 +17,7 @@ const Main = () => {
     if (isAuth) {
       dispatch(getAllUsers());
     }
-  }, [isAuth]);
+  }, [isAuth, dispatch]);
 
   return (
     <main>

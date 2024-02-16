@@ -3,16 +3,9 @@ import { AppDispatch } from "./store";
 import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
-  User,
 } from "firebase/auth";
 import { auth, db } from "../firebase";
-import {
-  collection,
-  addDoc,
-  getDocs,
-  query,
-  orderBy,
-} from "firebase/firestore";
+import { collection, addDoc, getDocs } from "firebase/firestore";
 
 export const signUp =
   (email: string, password: string, setIsModalOpen: (a: boolean) => void) =>

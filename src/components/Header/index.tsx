@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useSelector } from "react-redux";
 import { useAppDispatch } from "../../redux/store";
-import { logOut, signIn, signUp } from "../../redux/usersOperations";
+import { logOut } from "../../redux/usersOperations";
 import { isAuthSelector, userEmailSelector } from "../../redux/usersSelectors";
 import Modal from "../Modal";
 import s from "./index.module.scss";
